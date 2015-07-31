@@ -21,7 +21,7 @@ public class PrimeFactors {
 
         int input = n;
         // alternatively, can go to sq. root(n) instead of n, and return n if list is empty
-        for (int x = 2; x <= n; x++){
+        for (int x = 2; x <= n; x++) {
             if (input % x == 0) {
                 primeFactors.add(x);
                 input /= x;
